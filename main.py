@@ -32,7 +32,7 @@ if __name__ == '__main__':
     Mdp = MdpGridWorld()
 
     # -- 2. Policy Evaluation (Uncomment this block code)
-    [r, S, pi] = Mdp.policyEvaluation(r, S, pi, k=1000, gama=GAMA, teta=TETA, nRound=ROUND)
+    #[r, S, pi] = Mdp.policyEvaluation(r, S, pi, k=1000, gama=GAMA, teta=TETA, nRound=ROUND)
 
     # -- 3. Value Iteraction (Uncomment this block code)
-    # [r, S, pi] = Mdp.valueIteraction(r, S, pi, gama=GAMA, teta=TETA, nRound=ROUND)
+    [r, S, pi] = Mdp.valueIteraction(r, S, pi, gama=GAMA, teta=TETA, nRound=ROUND)
